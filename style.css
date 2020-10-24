@@ -1,0 +1,81 @@
+.block1 {  
+	background: #013220;
+	padding: 5px;
+}
+.block2 {  
+	background: #0bda51;
+	padding: 5px;  
+}
+.block3 { 
+	background: #ffe4cd;
+	padding: 5px;
+	font-size: 110%;
+}
+body { 
+     font-family: Arial, sans-serif;
+}
+.title { 
+    color: white;
+    font-size: 130%;
+    font-family: serif;
+    left: 10%;
+    position: relative;
+	font-weight: bold;
+    }
+.shrek { 
+    font-family: serif;
+    left: 90%;
+    position: relative;
+}
+.os { 
+    font-family: serif;
+    left: 40%;
+    position: relative;
+}
+.pic { 
+    font-family: serif;
+    left: 40%;
+    position: relative;
+}
+.big { 
+		font-size: 120%; /* Размер шрифта в процентах */ 
+		font-weight: bold;
+		position: relative;
+		left: 45%;
+    }
+.sbig { 
+		font-size: 140%; /* Размер шрифта в процентах */ 
+		font-weight: bold;
+		font-family: serif;
+		position: relative;
+		left: 45%;
+    }
+.reg { 
+		font-size: 105%; /* Размер шрифта в процентах */ 
+		position: relative; /* Относительное позиционирование */
+		font-weight: bold;
+    }
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 130px 80px 1fr 20% 12%;
+}
+.item1 {
+	justify: end;
+	grid-column: span 2;
+}
+.item2 {
+	grid-column: span 4;
+}
+.item3 {
+	grid-column: span 3;
+}
+.item5 {
+	grid-column: 2 / 6;
+}
+.item6 {
+	grid-column: span 1;
+}
+.item9 {
+	grid-column: span 6;
+}
