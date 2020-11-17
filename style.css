@@ -30,6 +30,12 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+.content_countries{
+	position: absolute;
+	color: white;
+	top: 1%;
+	left: 35%;
+}
 .header{
 	color: white;
 	text-align: center;
@@ -40,6 +46,7 @@
 }
 .title_img{
 	text-align: right;
+
 }
 .greeting {
 	margin: auto;
@@ -48,6 +55,9 @@
 .birth {
 	margin: auto;
 	width: 80%;
+}
+.countries {
+	width: 105%;
 }
 .img{
 	display: flex;
@@ -63,17 +73,8 @@
 .cell_2 {
 	grid-column: span 2;
 }
-.cell {
-	text-align: center;
-	grid-column: span 4;
-	background-image: url("img/Страны.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 800px;
-}
 .cell_4 {
+	position:relative;
 	grid-column: span 4;
 }
 .drag{
