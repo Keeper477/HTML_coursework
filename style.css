@@ -2,6 +2,7 @@
 	background: #05bfc8;
 	min-height: 840px;
 	margin: 3%;
+	padding-bottom: 3%;
 }
 .title{
 	color: white;
@@ -12,6 +13,11 @@
 .content_right{
 	color: white;
 	font-size: 300%;
+}
+.content{
+	color: white;
+	font-size: 300%;
+	margin-left: 20%;
 }
 .content_left{
 	color: white;
