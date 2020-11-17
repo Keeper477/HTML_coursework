@@ -18,6 +18,12 @@
 	font-size: 300%;
 	margin-left: 10%;
 }
+.content_center{
+	color: white;
+	font-size: 300%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .header{
 	color: white;
 	text-align: center;
@@ -39,8 +45,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 60%;
-	width: 60%;
+	width: 80%;
 
 }
 .grid-container{
