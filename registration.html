@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Сайтик</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="block">
+        <div class="grid-container">
+            <div class="cell_1"></div>
+            <div class="menu"></div>
+            <div class="title cell_2">Чтобы продолжить, вам нужно авторизоваться:</div>
+            <div class="cell_1"><img src="img/corner.png" alt="corner" align="right"></div>
+            <div class="cell_2 grid-container">
+                <div class="cell_4 header">
+                    <p>
+                        Регистрация
+                    </p>
+                </div>
+                <div class="cell_2 content_reg">
+                    <form>
+                        Придумайте логин
+                    </form>
+                </div>
+                <div class="cell_2 content_reg">
+                    <form action="scripts/registration.js">
+                        <input type="text" id="r_name">
+                    </form>
+                </div>
+                <div class="cell_2 content_reg">
+                    <form>
+                        Придумайте пароль
+                    </form>
+                </div>
+                <div class="cell_2 content_reg">
+                    <form action="scripts/registration.js">
+                        <input type="password" id="r_email">
+                    </form>
+                </div>
+                <div class="cell_4 content_reg">
+                    <form action="scripts/registration.js">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+            <div class="cell_2 grid-container">
+                <div class="cell_4 header">
+                    <p>
+                        Авторизация
+                    </p>
+                </div>
+                <div class="cell_2 content_reg">
+                    Введите логин
+                </div>
+                <div class="cell_2 content_reg">
+                    <form action="scripts/registration.js">
+                        <input type="text" id="a_name">
+                    </form>
+                </div>
+                <div class="cell_2 content_reg">
+                    Введите пароль
+                </div>
+                <div class="cell_2 content_reg">
+                    <form action="scripts/registration.js">
+                        <input type="password" id="a_email">
+                    </form>
+                </div>
+
+                <div class="cell_4 content_reg">
+                    <form action="scripts/registration.js">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
