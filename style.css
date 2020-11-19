@@ -52,9 +52,13 @@
 	margin: auto;
 	width: 70%;
 }
-.birth {
+.img_width {
 	margin: auto;
 	width: 80%;
+}
+.img_height {
+	margin: auto;
+	width: 50%;
 }
 .countries {
 	width: 105%;
