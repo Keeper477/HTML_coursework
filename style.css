@@ -65,6 +65,10 @@
 	margin: auto;
 	width: 65%;
 }
+.img_menu {
+	margin: auto;
+	width: 70%;
+}
 .countries {
 	width: 105%;
 }
@@ -90,6 +94,9 @@
 }
 .visible {}
 .invisible{
+	display: none;
+}
+.invisible_m{
 	display: none;
 }
 .drag{
@@ -118,8 +125,15 @@ input[type=submit] {
 	cursor:pointer;
 	border-radius: 5px;
 }
+.nav{
+	display: flex;
+	justify-content: space-around;
+}
 
 @media screen and (max-device-width: 768px) {
+	.invisible_m{
+		display: block;
+	}
 	.visible {
 		display: none;
 	}
@@ -131,8 +145,9 @@ input[type=submit] {
 	}
 	.menu {
 		display: flex;
-		background: darkcyan;
+		background: #109ca2;
 		grid-column: span 1;
+		justify-content: space-around;
 	 }
 	.grid-container{
 		display: grid;
