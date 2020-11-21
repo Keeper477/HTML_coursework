@@ -60,6 +60,10 @@
 	margin: auto;
 	width: 50%;
 }
+.img_vol {
+	margin: auto;
+	width: 65%;
+}
 .countries {
 	width: 105%;
 }
@@ -113,6 +117,7 @@ input[type=submit] {
 	cursor:pointer;
 	border-radius: 5px;
 }
+
 @media screen and (max-device-width: 768px) {
 	.visible {
 		display: none;
@@ -176,6 +181,7 @@ input[type=submit] {
 		margin: auto;
 		width: 80%;
 	}
+
 }
 @media screen and (max-device-width: 1024px) {
 	.img_height {
