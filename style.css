@@ -99,6 +99,9 @@
 .invisible_m{
 	display: none;
 }
+.invisible_nav{
+	display: none;
+}
 .drag{
 	position:relative;
 	cursor:hand;
@@ -130,7 +133,11 @@ input[type=submit] {
 	justify-content: space-around;
 }
 
+.corner{
+	cursor:pointer;
+}
 @media screen and (max-device-width: 768px) {
+
 	.invisible_m{
 		display: block;
 	}

@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <title>Сайтик</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Сайтик</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="scripts/menu.js"></script>
 </head>
 <body>
     <div class="block">
-        <div class="grid-container">
+        <div class="grid-container invisible_nav" id="menu">
+            <div class="cell_4 visible"><img src="img/corner.png" class="corner" alt="corner" align="right" id="pic1"></div>
+            <div class="cell_2 visible">
+                <p>
+                    <a href="biography.html"><img src="img/nav_2.jpg" alt="comp" class="img img_width"></a>
+                    <div class="img_text">Биография</div>
+            </div>
+            <div class="cell_2 visible">
+                <p>
+                    <a href="camping.html"><img src="img/nav_1.jpg" alt="comp" class="img img_width"></a>
+                    <div class="img_text">Туризм</div>
+            </div>
+            <div class="cell_2 visible">
+                <p>
+                    <a href="volleyball.html"><img src="img/voley_3.jpg" alt="comp" class="img img_width"></a>
+                <div class="img_text">Волейбол</div>
+            </div>
+            <div class="cell_2 visible">
+                <p>
+                    <a href="volunteerism.html"><img src="img/vol_2.jpg" alt="comp" class="img img_width"></a>
+                    <div class="img_text">Волонтерство</div>
+            </div>
+        </div>
+        <div class="grid-container visible" id="grid">
             <div class="cell_1"></div>
             <div class="menu">
                 <a href="biography.html"><img src="img/menu_b.png" class="img_menu" alt=""></a>
@@ -20,7 +44,7 @@
                     ГЛАВНАЯ
                 </p>
             </div>
-            <div class="cell_1"><img src="img/corner.png" alt="corner" align="right"></div>
+            <div class="cell_1"><img src="img/corner.png" class="corner" alt="corner" align="right" id="pic2"></div>
             <div class="cell_2 content_left">
                 <p>
                     Приветствую вас на сайте про меня, Прокофьева Сергея Яковлевича.
@@ -70,16 +94,15 @@
                             <img src="img/menu_p.png" class="img_menu" alt="">
                         </div>
                         <div class="img_text">Волонтерство</div>
-                    </p>
                 </div>
                 <div class="invisible_m">
-                    <div class="img">
-                        <img src="img/menu_v.png" class="img_menu" alt="">
-                    </div>
-                    <div class="img_text">Волейбол</div>
+                    <p>
+                        <div class="img">
+                            <img src="img/menu_v.png" class="img_menu" alt="">
+                        </div>
+                        <div class="img_text">Волейбол</div>
                 </div>
             </div>
         </div>
     </div>
-</body>
-</html>
+<
