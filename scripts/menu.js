@@ -25,7 +25,7 @@ function getText() {
 
 function change() {
     const pic = document.getElementById("pic")
-    const num = Math.floor(Math.random() * 15) + 1
+    const num = Math.floor(Math.random() * 16) + 1
     if (num === 1) {
         pic.src = "img/activ.jpg"
     }
@@ -71,5 +71,7 @@ function change() {
     else if (num === 15){
         pic.src = "img/voley_3.jpg"
     }
-
+    else if (num === 16){
+        pic.src = "img/nav_0.jpg"
+    }
 }

@@ -1,6 +1,5 @@
 .block{
 	background: #05bfc8;
-	min-height: 840px;
 	margin: 3%;
 	padding-bottom: 3%;
 }
@@ -52,6 +51,15 @@
 .greeting {
 	margin: auto;
 	width: 70%;
+}
+.menu_width {
+	margin: auto;
+	width: 55%;
+}
+.menu_text{
+	text-align: center;
+	color: white;
+	font-size: 200%;
 }
 .img_width {
 	margin: auto;
@@ -136,6 +144,7 @@ input[type=submit] {
 .corner{
 	cursor:pointer;
 }
+
 @media screen and (max-device-width: 768px) {
 
 	.invisible_m{
@@ -206,6 +215,7 @@ input[type=submit] {
 	}
 
 }
+
 @media screen and (max-device-width: 1024px) {
 	.img_height {
 		margin: auto;
