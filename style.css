@@ -128,6 +128,9 @@
 .corner{
 	cursor:pointer;
 }
+.drag_cur{
+	cursor:move;
+}
 
 @media screen and (max-device-width: 768px) {
 
@@ -197,7 +200,6 @@
 		margin: auto;
 		width: 80%;
 	}
-
 }
 
 @media screen and (max-device-width: 1200px) {
