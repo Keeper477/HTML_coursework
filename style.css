@@ -120,22 +120,6 @@
 	color: white;
 	font-size: 250%;
 }
-input[type=text] {
-	padding:5px;
-	border:2px solid white;
-	border-radius: 5px;
-}
-input[type=password] {
-	padding:5px;
-	border:2px solid white;
-	border-radius: 5px;
-}
-input[type=submit] {
-	padding:5px 15px;
-	border:0 none;
-	cursor:pointer;
-	border-radius: 5px;
-}
 .nav{
 	display: flex;
 	justify-content: space-around;
@@ -216,7 +200,7 @@ input[type=submit] {
 
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-device-width: 1200px) {
 	.img_height {
 		margin: auto;
 		width: 60%;
