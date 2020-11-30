@@ -88,9 +88,6 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.menu {
-	display: none;
-}
 .cell_1 {
 	grid-column: span 1;
 }
@@ -100,6 +97,9 @@
 .cell_4 {
 	position:relative;
 	grid-column: span 4;
+}
+.menu {
+	display: none;
 }
 .visible {}
 .invisible{
